@@ -60,7 +60,7 @@
 					  <ul class="pagination justify-content-center">
 					    <li class="page-item">
 					      <a class="page-link" th:href="@{/cargos/listar(page=${1}, dir=${pageCargo.direcao})}" tabindex="-1">Primeiro</a>
-					    rick</li>
+					    </li>
 					    <li th:class="${pageCargo.pagina == 1} ? 'page-item disabled' : 'page-item'">
 					      <a class="page-link" th:href="@{/cargos/listar(page=${pageCargo.pagina - 1}, dir=${pageCargo.direcao})}" tabindex="-1">Anterior</a>
 					    </li>
